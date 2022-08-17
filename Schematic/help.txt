@@ -1,0 +1,2 @@
+DipTrace - *.dch
+DipTrace - *.dip
