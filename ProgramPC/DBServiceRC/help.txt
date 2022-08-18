@@ -4,7 +4,7 @@
 
 Таблица данных: tservicerc
 
- id | nametv | tvmodel | modelrc | encoding | keyonoff | keysource | keymenu | keyhome | keyvolumep | keyvolumem | keymute | keyreturn |
+ id | nametv | tvmodel | modelrc | encoding | imagerc | webrc | keyonoff | keysource | keymenu | keyhome | keyvolumep | keyvolumem | keymute | keyreturn |
 ------------------------------------------------------------------------------------------------------------------------------
 
 keyprogp | keyprogm | keytools | keyinfo| keyjup | keyjleft | keyjdown | keyjright | keyjcenter | key0 | key2....key9 | 
@@ -15,6 +15,8 @@ nametv - имя телевизора
 tvmodel - модель телевизора
 modelrc - модель ПДУ
 encoding - кодировка команд(частота, протокол)
+imagerc - изображение ПДУ
+webrc - "web" ПДУ  
 keyonoff - код кнопки вкл\выкл
 keysource - .. источник
 keymenu - .. меню
