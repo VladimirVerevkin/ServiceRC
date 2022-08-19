@@ -1,0 +1,11 @@
+<div>
+    <button onclick="Start()" id="StartButton" >Start</button>
+  </div>
+  
+  
+  <div id = "feed" style="display: none;">  
+  </div>
+  <script>
+      var d = JSON.parse('{{documents | tojson | safe}}');
+      document.getElementById('feed').innerHTML = d.asd; 
+   </script>

@@ -1,0 +1,34 @@
+расположене данных
+
+База данных: Postgresql
+
+Таблица данных: tservicerc
+
+ id | nametv | tvmodel | modelrc | encoding | imagerc | webrc | keyonoff | keysource | keymenu | keyhome | keyvolumep | keyvolumem | keymute | keyreturn |
+------------------------------------------------------------------------------------------------------------------------------
+
+keyprogp | keyprogm | keytools | keyinfo| keyjup | keyjleft | keyjdown | keyjright | keyjcenter | key0 | key2....key9 | 
+------------------------------------------------------------------------------------------------------------------------
+
+id - индекс
+nametv - имя телевизора
+tvmodel - модель телевизора
+modelrc - модель ПДУ
+encoding - кодировка команд(частота, протокол)
+imagerc - изображение ПДУ
+webrc - "web" ПДУ  
+keyonoff - код кнопки вкл\выкл
+keysource - .. источник
+keymenu - .. меню
+keyhome - .. домой
+keyvolumep - .. громкости +
+keyvolumem - .. громкости - 
+keymute - .. кнопка выкл. звука
+keyreturn - .. назад
+keyprogp - .. программа +
+keyprogm - .. программа -
+keytools - .. инструменты
+keyinfo - .. информация
+keyjup, keyjleft, keyjdown, keyjright, keyjcenter - .. джойстика: вверх, влево,вниз, вправо, центр
+key0....key9 - .. 0,1,2..9
+
