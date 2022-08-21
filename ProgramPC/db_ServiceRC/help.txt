@@ -4,15 +4,16 @@
 
 Таблица данных: tservicerc
 
- id | nametv | tvmodel | modelrc | encoding | imagerc | webrc | keyonoff | keysource | keymenu | keyhome | keyvolumep | keyvolumem | keymute | keyreturn |
+ id | typedevice | namedevice | modeldevice | modelrc | encoding | imagerc | webrc | keyonoff | keysource | keymenu | keyhome | keyvolumep | keyvolumem | keymute | keyreturn |
 ------------------------------------------------------------------------------------------------------------------------------
 
 keyprogp | keyprogm | keytools | keyinfo| keyjup | keyjleft | keyjdown | keyjright | keyjcenter | key0 | key2....key9 | 
 ------------------------------------------------------------------------------------------------------------------------
 
 id - индекс
-nametv - имя телевизора
-tvmodel - модель телевизора
+typedevice - тип устройства(телевизор, колонки, приставка...)
+namedevice - имя устройства
+modeldevice - модель устройства
 modelrc - модель ПДУ
 encoding - кодировка команд(частота, протокол)
 imagerc - изображение ПДУ
